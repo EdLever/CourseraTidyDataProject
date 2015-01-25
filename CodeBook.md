@@ -16,7 +16,7 @@ tBodyAccJerk-XYZ -Body acceleration jerk
 
 tBodyGyro-XYZ - Body gyroscope signal
 
-tBodyGyroJerk-XYZ - the body linear acceleration and angular velocity
+tBodyGyroJerk-XYZ - Body Gyro Jerk
 
 tBodyAccMag - Body acceleration magnitude
 
