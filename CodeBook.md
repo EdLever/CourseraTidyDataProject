@@ -1,4 +1,5 @@
 CourseraTidyDataProject
+
 The data comes from a study at the University of Irvine which studies linear movement of people in different activities
 The variables ranged from the X,Y,Z axis to the amount of acceleration and velocity ranging from person to person
 In this Codebook. I will explain all the Column names within the final tidy Data set
