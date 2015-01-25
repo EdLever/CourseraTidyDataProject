@@ -1,10 +1,9 @@
 CourseraTidyDataProject
 The data comes from a study at the University of Irvine which studies linear movement of people in different activities
-The variables ranged from the X,Y,Z axis to the ammount of acceleration and velocity ranging from person to person
-In this Codebook I will explain all the Column names within the final tidy Data set
+The variables ranged from the X,Y,Z axis to the amount of acceleration and velocity ranging from person to person
+In this Codebook. I will explain all the Column names within the final tidy Data set
  
-All time domain signals including the accelermeter and gyroscope were captured at 50Hz, then filtered to remove 20Hz of noise.Additionally the acceleration signal was then searated into body and gravity acceleration signals with a 0.3 Hz filter.
-Jerk signals derived from the body linear acceleration and angular velocity
+All time domain signals including the accelermeter and gyroscope were captured at 50Hz, then filtered to remove 20Hz of noise. Additionally the acceleration signal was then separated into body and gravity acceleration signals with a 0.3 Hz filter.Jerk signals derived from the body linear acceleration and angular velocity.
 
 Short hand names and their equivalent full names
 
