@@ -7,22 +7,39 @@ All time domain signals including the accelermeter and gyroscope were captured a
 Jerk signals derived from the body linear acceleration and angular velocity
 
 Short hand names and their equivalent full names
+
 tBodyAcc-XYZ - Body acceleration
+
 tGravityAcc-XYZ - Gravity acceleration
+
 tBodyAccJerk-XYZ -Body acceleration jerk
+
 tBodyGyro-XYZ - Body gyroscope signal
+
 tBodyGyroJerk-XYZ - the body linear acceleration and angular velocity
+
 tBodyAccMag - Body acceleration magnitude
+
 tGravityAccMag - Gravity acceleration magnitude
+
 tBodyAccJerkMag -Body acceleration Jerk magnitude
+
 tBodyGyroMag - Body gyroscope magnitude
+
 tBodyGyroJerkMag - Body gyroscope jerk magnitude
+
 fBodyAccMag - Body acceleration magnitude
+
 fBodyAccJerkMag- Body acceleration jerk magnitude
 
 Then after computing data set with all mean and stf values I did these computations to clean it up.
+
 names(df4) <- sub("tBodyAccJerk", "body.linear.acceleration", names(df4))
+
 names(df4) <- sub("BodyBody", "Body", names(df4))
+
 names(df4) <- sub("BodyAcc", "Body.acceleration", names(df4))
+
 names(df4) <- sub("BodyGyro", "Angular.velocity", names(df4))
+
 names(df4) <- sub("Mag", ".Magnitude", names(df4))
